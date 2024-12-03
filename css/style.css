@@ -1,0 +1,31 @@
+/* regole generali di pagina */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* regoler body */
+
+#wrapper{
+    height: calc(100vh - 150px);
+    display: flex;
+}
+
+#wrapper nav{
+    height: 100%;
+    width: 250px;
+    background-color: rgba(0,0,0,255);
+}
+
+#wrapper main{
+    height: 100%;
+    width: calc(100% - 250px);
+    overflow: auto;
+    background-color: rgba(20,25,34,255);
+}
+
+#player{
+    height: 150px;
+    background-color: rgba(40,40,40,255);
+}
