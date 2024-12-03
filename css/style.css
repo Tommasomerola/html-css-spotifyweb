@@ -29,3 +29,21 @@
     height: 150px;
     background-color: rgba(40,40,40,255);
 }
+
+
+/* versione small mmobile */
+@media screen and (max-width:480px) {
+
+    /* blocco navigazione principale */
+    #wrapper nav {
+        width: 80px;
+    }
+
+
+    /* blocco di contenuto principale */
+    #wrapper main {
+        width: calc(100% - 80px);
+    }
+
+
+}
