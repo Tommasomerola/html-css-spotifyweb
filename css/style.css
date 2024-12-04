@@ -30,6 +30,10 @@ nav{
 
 /* regole logo */
 
+#logo-small{
+    display: none;
+}
+
 #logo{
     width: 70%;
     padding-bottom: 15px ;
@@ -124,14 +128,32 @@ nav{
 
     /* blocco navigazione principale */
     #wrapper nav {
-        width: 80px;
+        width: 60px;
     }
 
 
     /* blocco di contenuto principale */
     #wrapper main {
-        width: calc(100% - 80px);
+        width: calc(100% - 60px);
     }
 
+    #logo, #nav-head span,#nav-main,#nav-footer span,#nav-footer hr{
+        display: none;
+    }
 
+    /* regole logo */
+    #logo-small{
+        display: block;
+        width: 100%;
+    }
+
+    #nav-head img{
+        display: block;
+        width: 100%;
+    }
+
+    #nav-footer img{
+        display: block;
+        width: 100%;
+    }
 }
