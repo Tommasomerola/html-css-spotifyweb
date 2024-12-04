@@ -18,15 +18,21 @@
     height: 100%;
     width: 200px;
     background-color: rgba(0,0,0,255);
-    padding-left: 15px;
+    padding: 10px 15px;
     color:rgba(111,111,111,255);  
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 
 /* regole logo */
 
 #logo{
-    width: 60%;
-    padding: 15px 0;
+    width: 70%;
+    padding-bottom: 15px ;
 }
 
 /* regole list item */
@@ -66,6 +72,37 @@
 #playlist span{
     vertical-align: middle;
     padding-left: 5px;
+}
+
+/* regole nav-footer */
+
+#nav-footer{
+    margin-top: auto;
+
+}
+
+#nav-footer li{
+    padding: 3px;
+    list-style: none;
+}
+
+#download img{
+    width: 8%;
+    vertical-align: middle;
+}
+
+#profilo{
+    color: #fff;
+    font-size: larger;
+}
+
+#profilo img{
+    width: 12%;
+    vertical-align: middle;
+} 
+
+#nav-footer li span{
+    vertical-align: middle;
 }
 
 
