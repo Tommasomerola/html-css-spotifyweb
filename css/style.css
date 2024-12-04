@@ -5,7 +5,9 @@
     box-sizing: border-box;
 }
 
-/* regoler body */
+        /* regoler body */
+
+/* regole nav */
 
 #wrapper{
     height: calc(100vh - 150px);
@@ -20,27 +22,52 @@
     color:rgba(111,111,111,255);  
 }
 
+/* regole logo */
+
 #logo{
     width: 60%;
     padding: 15px 0;
 }
+
+/* regole list item */
 
 #nav-head li{
     padding-bottom: 5px ;
     list-style: none;
 }
 
-#nav-head li img{
-    vertical-align: middle;
-}
-
 #nav-head li span{
     vertical-align: middle;
+    padding-left: 5px;
 }
 
 #nav-head img{
-    width: 15%;
+    width: 13%;
+    vertical-align: middle;
 }
+
+/* regole nav-main */
+
+#nav-main h2 {
+    color: #fff;
+    padding-top: 10px;
+}
+
+#nav-main li{
+    list-style: none;
+    padding: 5px 0;
+}
+
+#playlist i{
+    vertical-align: middle;
+    font-size: 35px;
+}
+
+#playlist span{
+    vertical-align: middle;
+    padding-left: 5px;
+}
+
 
 #wrapper main{
     height: 100%;
