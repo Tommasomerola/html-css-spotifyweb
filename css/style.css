@@ -109,7 +109,7 @@ nav{
     vertical-align: middle;
 }
 
-/* regole nav */
+/* regole main */
 
 #wrapper main{
     height: 100%;
@@ -120,12 +120,17 @@ nav{
 
 #upgrade{
     height: 100px;
+    width: calc(100% - 200px);
     background-color:rgba(8,11,18,255);
     opacity: 0.6;
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    position: fixed;
+    z-index: 900;
 }
+
+/* regole bottone */
 
 .upgrade-btn{
     background-color: transparent; 
@@ -137,7 +142,45 @@ nav{
     font-weight: bold;
 }
 
+/* regole container main */
 
+.container-musica{
+    padding:15px 0;
+    margin-top: 100px;
+}
+
+.container-musica h2{
+    color: #fff;
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.card{
+    width:15%;
+    padding:10px 15px;
+}
+
+.card img{
+    max-width: 100%;
+}
+
+.title{
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+.subtitle{
+    color: rgba(123,125,129,255);
+    font-size: 12px;
+    margin: 0 auto;
+}
 
 /* regole footer */
 
