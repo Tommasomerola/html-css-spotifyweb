@@ -155,10 +155,14 @@ nav{
     padding-left: 15px;
 }
 
+/* regole riga */
+
 .row{
     display: flex;
     flex-direction: row;
 }
+
+/* regole card */
 
 .card{
     width:15%;
@@ -169,17 +173,20 @@ nav{
     max-width: 100%;
 }
 
+/* regole didascalia album */
+
 .title{
     color: #fff;
     font-size: 16px;
     font-weight: bold;
-    margin: 0 auto;
+    text-align: center;
+    padding: 10px 0;
 }
 
 .subtitle{
     color: rgba(123,125,129,255);
     font-size: 12px;
-    margin: 0 auto;
+    text-align: center;
 }
 
 /* regole footer */
