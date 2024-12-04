@@ -10,7 +10,7 @@
 /* regole nav */
 
 #wrapper{
-    height: calc(100vh - 150px);
+    height: calc(100vh - 120px);
     display: flex;
 }
 
@@ -109,6 +109,7 @@ nav{
     vertical-align: middle;
 }
 
+/* regole nav */
 
 #wrapper main{
     height: 100%;
@@ -117,8 +118,31 @@ nav{
     background-color: rgba(20,25,34,255);
 }
 
+#upgrade{
+    height: 100px;
+    background-color:rgba(8,11,18,255);
+    opacity: 0.6;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.upgrade-btn{
+    background-color: transparent; 
+    color: #fff; 
+    border: 2px solid #fff; 
+    border-radius: 50px; 
+    padding: 10px 30px; 
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+
+/* regole footer */
+
 #player{
-    height: 150px;
+    height: 120px;
     background-color: rgba(40,40,40,255);
 }
 
