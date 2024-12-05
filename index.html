@@ -24,9 +24,9 @@
             <!-- prima sezione nav -->
             <div id="nav-head">
                 <ul>
-                    <li><img src="./img/home.svg" alt=""><span>Home</span></li>
-                    <li><img src="./img/search.svg" alt=""><span>Cerca</span></li>
-                    <li><img src="./img/libreria.svg" alt=""><span>La tua libreria</span></li>
+                    <li><img src="./img/home.svg" alt=""><span class="hover-white">Home</span></li>
+                    <li><img src="./img/search.svg" alt=""><span class="hover-white">Cerca</span></li>
+                    <li><img src="./img/libreria.svg" alt=""><span class="hover-white">La tua libreria</span></li>
                 </ul>
             </div>
             <!-- seconda sezione nav -->
@@ -36,22 +36,22 @@
 
                 <ul>    
                     <!-- crea nuova playlis -->
-                    <li id="playlist"><i class=" fa-solid fa-square-plus"></i><span>Crea Playlist</span></li>
+                    <li id="playlist" class="hover-white"><i class=" fa-solid fa-square-plus"></i><span>Crea Playlist</span></li>
                     <!-- playlist vuote -->
-                    <li>Nome Playlist</li>
-                    <li>Nome Playlist</li>
-                    <li>Nome Playlist</li>
-                    <li>Nome Playlist</li>
-                    <li>Nome Playlist</li>
-                    <li>Nome Playlist</li>
-                    <li>Nome Playlist</li>
+                    <li class="hover-white">Nome Playlist</li>
+                    <li class="hover-white">Nome Playlist</li>
+                    <li class="hover-white">Nome Playlist</li>
+                    <li class="hover-white">Nome Playlist</li>
+                    <li class="hover-white">Nome Playlist</li>
+                    <li class="hover-white">Nome Playlist</li>
+                    <li class="hover-white">Nome Playlist</li>
                 </ul>
 
             </div>
             <!-- ultima sezione nav -->
             <div id="nav-footer">
                 <ul>
-                    <li id="download"><img src="./img/download.svg" alt=""> <span>Installa app</span> </li>
+                    <li id="download"><img src="./img/download.svg" alt=""> <span class="hover-white">Installa app</span> </li>
                     <hr>
                     <li id="profilo"><img src="./img/profile.svg" alt=""> <span>Jhon Doe</span></li>
                 </ul>
@@ -112,7 +112,10 @@
                     <!-- card per ogni album  -->
                     <div class="card">
                         <!-- img album -->
-                        <img src="./img/metal_lifting.jpg" alt="">
+                        <div class="container-img-album">
+                            <i class="fa-regular fa-circle-play hover-play"></i>
+                            <img src="./img/metal_lifting.jpg" alt="img song">
+                        </div>
                         <!-- titolo e sottotitolo album  -->
                         <div class="title">Heavy Metal</div>
                         <div class="subtitle">Subtitle</div>
@@ -120,31 +123,46 @@
                     </div>
                     <!-- ripeti card per ogni album  -->
                     <div class="card">
-                        <img src="./img/stranger.jpeg" alt="">
+                        <div class="container-img-album">
+                            <i class="fa-regular fa-circle-play hover-play"></i>
+                            <img src="./img/stranger.jpeg" alt="img song">
+                        </div>
                         <div class="title">Stranger Things, Vol.1(a Netflix Original Series Soundtrack)</div>
                         <div class="subtitle">Kyle Dixon & Micheal Stein</div>
                     </div>
 
                     <div class="card">
-                        <img src="./img/aquietplace.jpeg" alt="">
+                        <div class="container-img-album">
+                            <i class="fa-regular fa-circle-play hover-play"></i>
+                            <img src="./img/aquietplace.jpeg" alt="img song">
+                        </div>
                         <div class="title">A quiet place</div>
                         <div class="subtitle">Subtitle</div>
                     </div>
 
                     <div class="card">
-                        <img src="./img/split.jpeg" alt="">
+                        <div class="container-img-album">
+                            <i class="fa-regular fa-circle-play hover-play"></i>
+                            <img src="./img/split.jpeg" alt="img song">
+                        </div>
                         <div class="title">Split</div>
                         <div class="subtitle">Subtitle</div>
                     </div>
 
                     <div class="card">
-                        <img src="./img/cure.jpeg" alt="">
+                        <div class="container-img-album">
+                            <i class="fa-regular fa-circle-play hover-play"></i>
+                            <img src="./img/cure.jpeg" alt="img song">
+                        </div>
                         <div class="title">A cure for Wellness</div>
                         <div class="subtitle">Subtitle</div>
                     </div>
 
                     <div class="card">
-                        <img src="./img/sinister.jpeg" alt="">
+                        <div class="container-img-album">
+                            <i class="fa-regular fa-circle-play hover-play"></i>
+                            <img src="./img/sinister.jpeg" alt="img song">
+                        </div>
                         <div class="title">Sinister</div>
                         <div class="subtitle">Subtitle</div>
                     </div>
@@ -152,32 +170,51 @@
                 </div>
                 <!-- seconda sezione album  -->
                 <h2>Creato per Jhon Doe</h2>
+                
+                <span class="grey-text">
+                    Pi&ugrave; ascolti, pi&ugrave; accurati saranno i suggerimenti
+                </span>
                 <!-- seconda riga album  -->
                 <div class="row">
                     <!-- card album -->
                     <div class="card">
-                        <img src="./img/radar.jpeg" alt="">
+                        <div class="container-img-album">
+                            <i class="fa-regular fa-circle-play hover-play"></i>
+                            <img src="./img/radar.jpeg" alt="img song">
+                        </div> 
                         <div class="title">Release Radar</div>
                     </div>
 
                     <div class="card">
-                        <img src="./img/mixdaily.jpeg" alt="">
+                        <div class="container-img-album">
+                            <i class="fa-regular fa-circle-play hover-play"></i>
+                            <img src="./img/mixdaily.jpeg" alt="img song">
+                        </div>
                         <div class="title">Daily Mix 1</div>
                     </div>
 
                 </div>
                 <!-- terza sezione album  -->
                 <h2>Artisti più popolari</h2>
+                <span class="grey-text">
+                    Pi&ugrave; ascolti, pi&ugrave; accurati saranno i suggerimenti
+                </span>
                 <!-- riga artisti -->
                 <div class="row">
                     <!-- card artisti -->
                     <div class="card">
-                        <img src="./img/youg.jpeg" alt="">
+                        <div class="container-img-album">
+                            <i class="fa-regular fa-circle-play hover-play"></i>
+                            <img src="./img/youg.jpeg" alt="img song" class="round-img">
+                        </div>
                         <div class="title">Lana del Rey</div>
                     </div>
 
                     <div class="card">
-                        <img src="./img/einaudi.jpeg" alt="">
+                        <div class="container-img-album">
+                            <i class="fa-regular fa-circle-play hover-play"></i>
+                            <img src="./img/einaudi.jpeg" alt="img song" class="round-img">
+                        </div> 
                         <div class="title">Ludovico Einaudi</div>
                     </div>
 
@@ -203,8 +240,8 @@
             </div>
 
             <div id="heart-folder">
-                <a href=""><i class="fa-regular fa-heart"></i></a>
-                <a href=""><i class="fa-regular fa-folder"></i></a>
+                <a href=""><i class="fa-regular fa-heart hover-white"></i></a>
+                <a href=""><i class="fa-regular fa-folder hover-white"></i></a>
             </div>
 
         </div>

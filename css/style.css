@@ -32,6 +32,16 @@ ul{
 .hover-transform:hover{
     transform: scale(1.1);
 }
+
+.container-img-album:hover .fa-circle-play.hover-play{
+    opacity: 1;
+    z-index: 10;
+}
+
+.card:hover img{
+    opacity: 0.5;
+}
+
 /* regole nav */
 
 #wrapper{
@@ -204,6 +214,19 @@ nav{
 .card{
     width:15%;
     padding:10px 15px;
+}
+
+.container-img-album{
+    position: relative;
+}
+
+.fa-circle-play.hover-play{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    font-size: 45px;
+    opacity: 0;
 }
 
 .card img{
