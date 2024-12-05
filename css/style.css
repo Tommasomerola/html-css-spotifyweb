@@ -10,7 +10,7 @@
 /* regole nav */
 
 #wrapper{
-    height: calc(100vh - 120px);
+    height: calc(100vh - 90px);
     display: flex;
 }
 
@@ -192,9 +192,122 @@ nav{
 /* regole footer */
 
 #player{
-    height: 120px;
+    height: 90px;
     background-color: rgba(40,40,40,255);
+    display: flex;
+    justify-content: space-between;
 }
+
+/* head player */
+
+#head-player{
+    display: flex;
+    align-items: center;
+    width: 25%;
+}
+/* controllo imagine */
+#img-player{
+    width: 15%;
+    padding-left: 10px;
+}
+
+#img-player img{
+    max-width: 100%;
+}
+/* controllo scritte */
+#info-player{
+    vertical-align: middle;
+    padding: 8px;
+}
+
+#info-player h3{
+    color: #fff;
+}
+
+#info-player div{
+    color: rgba(126,126,126,255);
+}
+
+/* controllo icone */
+
+#heart-folder a{
+    color: rgba(126,126,126,255);
+    padding: 10px;
+}
+
+/* main player */
+
+#main-player{
+    width: 50%;
+}
+
+/* controllo icode */
+
+#control{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#control i{
+    color: #fff;
+    font-size: 25px;
+    padding: 5px;
+}
+
+/* controllo barra scorrimeto */
+
+#music-control{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#music-control span{
+    color: #fff;
+    padding: 5px;
+}
+
+/* barra scorrimento */
+
+.music-bar{
+    display: inline-block;
+}
+
+.music-bar,
+.volume-bar {
+    height: 5px;
+    background-color: rgba(90,90,90,255);
+    border-radius: 99px;
+    width: 60%;
+    cursor: pointer;
+}
+
+/* footer player */
+
+#footer-player{
+    width: 25%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/* icone footer player */
+
+#footer-player i{
+    color: rgba(135,135,135,255);
+    padding: 5px;
+}
+
+/* barra volume */
+
+.volume-bar {
+    width: 40%;
+    display: inline-block;
+}
+
+
+
 
 
 /* versione small mmobile */
