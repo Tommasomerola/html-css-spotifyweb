@@ -7,6 +7,31 @@
 
         /* regoler body */
 
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+ul{
+    list-style: none;
+}
+
+.grey-text{
+    color: #787a7f;
+}
+
+/* effetti hover */
+.hover-white:hover{
+    color: #fff;
+}
+
+.hover-transform:hover{
+    transform: scale(1.1);
+}
 /* regole nav */
 
 #wrapper{
@@ -144,6 +169,18 @@ nav{
 
 /* regole container main */
 
+.lista-superiore{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;  
+}
+
+.lista-superiore li{
+    margin: 15px 10px;
+    font-size: 10px;
+}
+
+
 .container-musica{
     padding:15px 0;
     margin-top: 100px;
@@ -251,9 +288,10 @@ nav{
 
 #control i{
     color: #fff;
-    font-size: 25px;
+    font-size:22px;
     padding: 5px;
 }
+
 
 /* controllo barra scorrimeto */
 
